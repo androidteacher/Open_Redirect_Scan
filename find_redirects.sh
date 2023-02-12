@@ -5,7 +5,7 @@ printHelp() {
 -subdomains <yes/no>\n"
       echo -e "\e[091m*************************************************************************************"
       echo -e "                                    Example:"
-      echo -e "./find_redirects.sh --target mysite.com --listener http://pingb.in/p/abcde1234 --subs no"
+      echo -e "./find_redirects.sh --target mysite.com --listener http://pingb.in/p/abcde1234 --subdomains no"
       echo -e "\e[091m*************************************************************************************\e[0m\n"
       echo -e " --listener must be a well-formed url and include the uri."
       echo -e " --target must not include the uri\n"
