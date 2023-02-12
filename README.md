@@ -4,7 +4,7 @@
     - ffuf
     - amass
     - gf
-    - amass
+    - gau
   
 ### Usage
 ``` 
