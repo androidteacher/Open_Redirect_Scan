@@ -7,5 +7,6 @@
   -amass
   
 ### Usage
-``` ./find_redirects --target somesite.com --listener http://pingb.in/p/abcde1234 --subdomains <yes/no>
+``` 
+./find_redirects --target somesite.com --listener http://pingb.in/p/abcde1234 --subdomains <yes/no>
 ```
