@@ -10,3 +10,5 @@
 ``` 
 ./find_redirects --target somesite.com --listener http://pingb.in/p/abcde1234 --subdomains <yes/no>
 ```
+
+### If your listener gets hit, check the file redirects_found.txt to see which request triggered the redirect.
