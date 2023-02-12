@@ -5,6 +5,7 @@
     - amass
     - gf
     - gau
+    - qsreplace
   
 ### Usage
 ``` 
