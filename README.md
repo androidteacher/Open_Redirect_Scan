@@ -1,10 +1,10 @@
 ### Open Redirect Scanner
 
 - You must have the following programs installed and in your PATH:
-  -ffuf
-  -amass
-  -gf
-  -amass
+    -ffuf
+    -amass
+    -gf
+    -amass
   
 ### Usage
 ``` 
