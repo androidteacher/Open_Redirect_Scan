@@ -13,7 +13,7 @@ printHelp() {
       echo -e "to see which request the redirect came from"
       echo -e "\n\n"
       echo -e "\e[091m*********************************************************************"
-      echo -e "\e[091m Requires \e[036mffuf, amass, gau, qsrelace, and gf are installed \e[031m and in your PATH"
+      echo -e "\e[091m Requires \e[036mffuf, amass, gau, and gf are installed \e[031m and in your PATH"
       echo -e "\e[091m*********************************************************************\e[0m\n\n"
 }
 target=''
@@ -43,13 +43,14 @@ printHelp
 done
       
 
-if [ -z "$target" ] || [ -z "$listener" || [ -z "$subs" ]; then
+if [ -z "$target" ] || [ -z "$listener"] || [ -z "$subs" ]; then
 	printHelp
  	exit 1
 fi
-echo $target
-echo $listener
-echo $subs
+echo -e "Your target it $target"
+echo -e "\n \e[046m Did you include the full URI here? \e[0m \n $listener"
+echo -e "Your listener is:"
+echo -e "Subdomains $subs"
 
 #Clear old output.
 rm output/*
