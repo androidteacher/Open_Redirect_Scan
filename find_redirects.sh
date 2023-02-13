@@ -13,7 +13,7 @@ printHelp() {
       echo -e "to see which request the redirect came from"
       echo -e "\n\n"
       echo -e "\e[091m*********************************************************************"
-      echo -e "\e[091m Requires \e[036mffuf, amass, gau, and gf are installed \e[031m and in your PATH"
+      echo -e "\e[091m Requires \e[036mffuf, amass, gau, qsrelace, and gf are installed \e[031m and in your PATH"
       echo -e "\e[091m*********************************************************************\e[0m\n\n"
 }
 target=''
