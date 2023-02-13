@@ -58,7 +58,7 @@ rm output/*
 #Subs = yes? Run amass
 if [[ "$subs" = "no" ]]; then
 	echo -e "\e[031m*********************************************************************"
-	echo -e "\e[031mNot running amass Running gau against $target without subdomains"
+	echo -e "\e[031mNot running amass. Running gau against $target without subdomains"
 	echo -e "\e[031m*********************************************************************\e[0m\n\n"
 else
 	echo -e "\e[031m*********************************************************************"
